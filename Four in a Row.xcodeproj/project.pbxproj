@@ -12,6 +12,7 @@
 		6FFCA1DB20CF02EC007A38A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFCA1D920CF02EC007A38A0 /* Main.storyboard */; };
 		6FFCA1DD20CF02EE007A38A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFCA1DC20CF02EE007A38A0 /* Assets.xcassets */; };
 		6FFCA1E020CF02EE007A38A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFCA1DE20CF02EE007A38A0 /* LaunchScreen.storyboard */; };
+		6FFCA1E820CF0326007A38A0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6FFCA1E720CF0326007A38A0 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6FFCA1DC20CF02EE007A38A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FFCA1DF20CF02EE007A38A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FFCA1E120CF02EE007A38A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FFCA1E720CF0326007A38A0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		6FFCA1C920CF02EB007A38A0 = {
 			isa = PBXGroup;
 			children = (
+				6FFCA1E720CF0326007A38A0 /* README.md */,
 				6FFCA1D420CF02EC007A38A0 /* Four in a Row */,
 				6FFCA1D320CF02EC007A38A0 /* Products */,
 			);
@@ -124,6 +127,7 @@
 			files = (
 				6FFCA1E020CF02EE007A38A0 /* LaunchScreen.storyboard in Resources */,
 				6FFCA1DD20CF02EE007A38A0 /* Assets.xcassets in Resources */,
+				6FFCA1E820CF0326007A38A0 /* README.md in Resources */,
 				6FFCA1DB20CF02EC007A38A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,15 +285,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JK6DF95Y7;
 				INFOPLIST_FILE = "Four in a Row/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.forrestwparker.Four-in-a-Row";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forrestwparker.asdf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -298,15 +303,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JK6DF95Y7;
 				INFOPLIST_FILE = "Four in a Row/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.forrestwparker.Four-in-a-Row";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forrestwparker.asdf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
